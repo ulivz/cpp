@@ -11,6 +11,7 @@
 		FDC2364A20774D1E005E79EB /* sizeof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2364820774D1E005E79EB /* sizeof.cpp */; };
 		FDC2364D20774DF5005E79EB /* datatypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2364B20774DF5005E79EB /* datatypes.cpp */; };
 		FDC236502077509C005E79EB /* scope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2364E2077509C005E79EB /* scope.cpp */; };
+		FDC2366620776707005E79EB /* constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2366420776707005E79EB /* constant.cpp */; };
 		FDD596F6207723960079E0BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDD596F5207723960079E0BD /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		FDC2364C20774DF5005E79EB /* datatypes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = datatypes.hpp; sourceTree = "<group>"; };
 		FDC2364E2077509C005E79EB /* scope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scope.cpp; sourceTree = "<group>"; };
 		FDC2364F2077509C005E79EB /* scope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = scope.hpp; sourceTree = "<group>"; };
+		FDC2366420776707005E79EB /* constant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constant.cpp; sourceTree = "<group>"; };
+		FDC2366520776707005E79EB /* constant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = constant.hpp; sourceTree = "<group>"; };
 		FDD596F2207723960079E0BD /* helloworld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloworld; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD596F5207723960079E0BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +81,8 @@
 				FDC2364C20774DF5005E79EB /* datatypes.hpp */,
 				FDC2364E2077509C005E79EB /* scope.cpp */,
 				FDC2364F2077509C005E79EB /* scope.hpp */,
+				FDC2366420776707005E79EB /* constant.cpp */,
+				FDC2366520776707005E79EB /* constant.hpp */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				FDC236502077509C005E79EB /* scope.cpp in Sources */,
 				FDD596F6207723960079E0BD /* main.cpp in Sources */,
 				FDC2364D20774DF5005E79EB /* datatypes.cpp in Sources */,
+				FDC2366620776707005E79EB /* constant.cpp in Sources */,
 				FDC2364720774A5B005E79EB /* function.cpp in Sources */,
 				FDC2364A20774D1E005E79EB /* sizeof.cpp in Sources */,
 			);
