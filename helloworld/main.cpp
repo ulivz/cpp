@@ -17,12 +17,14 @@ using namespace std;
 // Command + option + ]: move current line down
 // Command + R         : Run APP
 
-// Part.1 'sizeof' Operator
+
 
 int main(int argc, const char * argv[]) {
     // std is the namespace1
     cout << "Hello, World!\n";
     cout << "Welcoment to ULIVZ's CPP world.\n\n";
+    
+    // Part.1 'sizeof' Operator
     
     cout << "type: \t\t" << "=============== size =================" << endl;
     
@@ -82,6 +84,19 @@ int main(int argc, const char * argv[]) {
     cout << "\t Minimum: " << (numeric_limits<string>::min)();
     cout << "\t Minimum: " << (numeric_limits<string>::min)() << endl;
     
+    
+    // Part.2 'typedef' Operator
+    typedef char char2;
+    
+    // This following usage will throw a warning:
+    // ISO C++11 does not allow conversion from string literal to 'char *'
+    // char* str1 = "hello world\n";
+    char const* name = "ULIVZ\n";
+    cout << name << endl;
+    
     return 0;
 }
+
+
+
 
