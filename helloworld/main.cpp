@@ -91,8 +91,15 @@ int main(int argc, const char * argv[]) {
     // This following usage will throw a warning:
     // ISO C++11 does not allow conversion from string literal to 'char *'
     // char* str1 = "hello world\n";
-    char const* name = "ULIVZ\n";
+    char const* name = "ULIVZ";
     cout << name << endl;
+    
+    // Part.3 'enum'
+    enum color { red, green, blue } c;
+    c = blue;
+    cout << c << endl;
+    
+    
     
     return 0;
 }
