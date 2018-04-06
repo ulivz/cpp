@@ -12,6 +12,18 @@
 using namespace std;
 
 // Global varible.
+// Need to point out that cpp interpreter will initialize the
+// global variable.
+
+// int     - 0
+// char    - '\0'
+// float   - 0
+// double  - 0
+// pointer - NULL
+
+// But local variables will not be initialized automatically. so
+// you should init by yourself.
+
 int g = 20;
 int g2 = 20;
 
