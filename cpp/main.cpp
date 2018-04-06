@@ -46,7 +46,8 @@ int main(int argc, const char * argv[]) {
 //    my_constant();
     
     // 6. Pointer
-    my_pointer1();
+//    my_pointer1();
+    my_pointer2();
     
     return 0;
 }
