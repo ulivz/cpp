@@ -17,7 +17,9 @@ using namespace std;
 // Command + option + ]: move current line down
 // Command + R         : Run APP
 
-
+extern int a, b;
+extern int c;
+extern float f;
 
 int main(int argc, const char * argv[]) {
     // std is the namespace1
@@ -95,11 +97,23 @@ int main(int argc, const char * argv[]) {
     cout << name << endl;
     
     // Part.3 'enum'
-    enum color { red, green, blue } c;
-    c = blue;
+    enum color { red, green, blue } my_color;
+    my_color = blue;
+    cout << my_color << endl;
+    
+    
+    // Part.4 Variable
+    int a, b;
+    int c;
+    float f;
+    
+    a = 10;
+    b = 20;
+    c = a + b;
     cout << c << endl;
     
-    
+    f = c/2.55;
+    cout << f << endl;
     
     return 0;
 }
