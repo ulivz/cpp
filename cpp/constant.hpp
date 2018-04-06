@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void my_constant();
+
 #endif /* constant_hpp */

@@ -6,8 +6,10 @@
 //  Copyright © 2018 Chen, Luke(AWF). All rights reserved.
 //
 
-#include "sizeof.hpp"
 #include <iostream>
+#include <limits>
+#include <string>
+#include "sizeof.hpp"
 
 using namespace std;
 
@@ -26,6 +28,7 @@ void sizeof_func() {
     cout << "\t Minimum: " << (numeric_limits<signed char>::min)();
     cout << "\t Minimum: " << (numeric_limits<signed char>::min)() << endl;
     
+    // wchar_t: Wide character constants
     cout << "wchar_t: \t\t" << "sizeof：" << sizeof(wchar_t);
     cout << "\t Minimum: " << (numeric_limits<wchar_t>::min)();
     cout << "\t Minimum: " << (numeric_limits<wchar_t>::min)() << endl;

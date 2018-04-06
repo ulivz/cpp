@@ -6,7 +6,10 @@
 //  Copyright © 2018 ULIVZ. All rights reserved.
 //
 
+#include <iostream>
 #include "constant.hpp"
+
+using namespace std;
 
 ////////////////////////////////////////////
 // Integer Constant
@@ -35,4 +38,44 @@
 //
 //
 ////////////////////////////////////////////
+// Boolean Constant
+// true
+// false
+//
+//
+////////////////////////////////////////////
+// Character Constant
+// \\ \
+// \' '
+// \" "
+// etc.
+//
+////////////////////////////////////////////
+// String Constant
+
+
+
+
+void my_constant() {
+    int my_int1     = 1994;
+    int my_int2     = 0x12;
+    int my_int3     = 0123;
+    float my_float1 = 3.14159;
+    bool my_bool1   = true;
+    bool my_bool2   = false;
+    
+    cout
+    << my_int1   << '\t'
+    << my_int2   << '\t'
+    << my_int3   << '\t'
+    << my_float1 << '\t'
+    << my_bool1  << '\t' // will log 1, why?
+    << my_bool2  << '\t' // will log 0, why?
+    
+    << endl;
+}
+
+
+
+
 
