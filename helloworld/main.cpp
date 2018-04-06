@@ -14,6 +14,7 @@
 #include "sizeof.hpp"
 #include "datatypes.hpp"
 #include "function.hpp"
+#include "scope.hpp"
 #include <iostream>
 #include <limits>
 #include <string>
@@ -30,9 +31,15 @@ int main(int argc, const char * argv[]) {
     // my_enum_func();
     // my_num_func();
     
-    // Part.5 Function
+    // 3. Function
     // cout << hello_world() << endl;
     // cout << math_min(1, 2) << endl;
+    
+    // 4. Scope
+    my_scope_1();
+    my_scope_2();
+    my_scope_3();
+    my_scope_4();
     
     return 0;
 }
