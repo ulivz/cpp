@@ -53,7 +53,7 @@
 		FDD596E9207723950079E0BD = {
 			isa = PBXGroup;
 			children = (
-				FDD596F4207723960079E0BD /* helloworld */,
+				FDD596F4207723960079E0BD /* cpp */,
 				FDD596F3207723960079E0BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FDD596F4207723960079E0BD /* helloworld */ = {
+		FDD596F4207723960079E0BD /* cpp */ = {
 			isa = PBXGroup;
 			children = (
 				FDD596F5207723960079E0BD /* main.cpp */,
@@ -79,7 +79,7 @@
 				FDC2364E2077509C005E79EB /* scope.cpp */,
 				FDC2364F2077509C005E79EB /* scope.hpp */,
 			);
-			path = helloworld;
+			path = cpp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDD596ED207723950079E0BD /* Build configuration list for PBXProject "helloworld" */;
+			buildConfigurationList = FDD596ED207723950079E0BD /* Build configuration list for PBXProject "cpp" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDD596ED207723950079E0BD /* Build configuration list for PBXProject "helloworld" */ = {
+		FDD596ED207723950079E0BD /* Build configuration list for PBXProject "cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDD596F7207723960079E0BD /* Debug */,
