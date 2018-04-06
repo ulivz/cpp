@@ -18,6 +18,7 @@
 #include "function.hpp"
 #include "scope.hpp"
 #include "constant.hpp"
+#include "pointer.hpp"
 
 using namespace std;
 
@@ -42,7 +43,10 @@ int main(int argc, const char * argv[]) {
 //    my_scope_4();
     
 //     5. Constants
-    my_constant();
+//    my_constant();
+    
+    // 6. Pointer
+    my_pointer1();
     
     return 0;
 }
