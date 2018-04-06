@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FDC2364720774A5B005E79EB /* function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2364520774A5B005E79EB /* function.cpp */; };
+		FDC2364A20774D1E005E79EB /* sizeof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDC2364820774D1E005E79EB /* sizeof.cpp */; };
 		FDD596F6207723960079E0BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDD596F5207723960079E0BD /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FDC2364520774A5B005E79EB /* function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
+		FDC2364620774A5B005E79EB /* function.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = function.hpp; sourceTree = "<group>"; };
+		FDC2364820774D1E005E79EB /* sizeof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sizeof.cpp; sourceTree = "<group>"; };
+		FDC2364920774D1E005E79EB /* sizeof.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sizeof.hpp; sourceTree = "<group>"; };
 		FDD596F2207723960079E0BD /* helloworld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = helloworld; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD596F5207723960079E0BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				FDD596F5207723960079E0BD /* main.cpp */,
+				FDC2364520774A5B005E79EB /* function.cpp */,
+				FDC2364620774A5B005E79EB /* function.hpp */,
+				FDC2364820774D1E005E79EB /* sizeof.cpp */,
+				FDC2364920774D1E005E79EB /* sizeof.hpp */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD596F6207723960079E0BD /* main.cpp in Sources */,
+				FDC2364720774A5B005E79EB /* function.cpp in Sources */,
+				FDC2364A20774D1E005E79EB /* sizeof.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
