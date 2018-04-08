@@ -6,7 +6,7 @@
 //  Copyright © 2018 ULVIZ. All rights reserved.
 //
 
-#include "function.hpp"
+#include "../include/function.hpp"
 
 char* hello_world() {
     char* str = "Hello World";

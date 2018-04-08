@@ -9,7 +9,7 @@
 #include <iostream>
 #include <limits>
 #include <string>
-#include "sizeof.hpp"
+#include "../include/sizeof.hpp"
 
 using namespace std;
 

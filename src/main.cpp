@@ -13,14 +13,13 @@
 
 #include <iostream>
 
-//#include "sizeof.hpp"
-//#include "datatypes.hpp"
-//#include "function.hpp"
-//#include "scope.hpp"
-//#include "constant.hpp"
-#include "constant.hpp"
-//#include "pointer.hpp"
-//#include "modifiers.hpp"
+#include "../include/sizeof.hpp"
+#include "../include/datatypes.hpp"
+#include "../include/function.hpp"
+#include "../include/scope.hpp"
+#include "../include/constant.hpp"
+#include "../include/pointer.hpp"
+#include "../include/modifiers.hpp"
 
 using namespace std;
 
@@ -48,8 +47,8 @@ int main(int argc, const char * argv[]) {
     my_constant();
     
     // 6. Pointer
-//    my_pointer1();
-//    my_pointer2();
+    my_pointer1();
+    my_pointer2();
     
     return 0;
 }

@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <typeinfo>
-#include "pointer.hpp"
+#include "../include/pointer.hpp"
 
 using namespace std;
 
@@ -45,7 +45,7 @@ void my_pointer2() {
     
     cout
     << *b << "\t"            // 257
-    << *c << "\t\n" << endl; // Why?
+    << (int)*c << "\t\n" << endl; // Why?
 }
 
 

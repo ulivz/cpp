@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "scope.hpp"
+#include "../include/scope.hpp"
 
 using namespace std;
 

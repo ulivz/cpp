@@ -8,7 +8,7 @@
 
 #include <iostream>
 #include <string>
-#include "constant.hpp"
+#include "../include/constant.hpp"
 
 using namespace std;
 
