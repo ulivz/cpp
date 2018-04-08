@@ -1,8 +1,8 @@
 # 错误记录
 
-1. Xcode 项目 使用 Clion 打开, 运行报错：
+### 1. Xcode 项目 使用 Clion 打开运行报错：
 
-重现步骤，使用 Xcode 创建一个 CLI 项目，然后用 Clion打开，CMakelist 如下：
+- 重现步骤：使用 Xcode 创建一个多文件 CLI 项目，然后用 Clion 打开，`CMakeLists.txt` 如下：
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
