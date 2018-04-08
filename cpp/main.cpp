@@ -13,12 +13,14 @@
 
 #include <iostream>
 
-#include "sizeof.hpp"
-#include "datatypes.hpp"
-#include "function.hpp"
-#include "scope.hpp"
+//#include "sizeof.hpp"
+//#include "datatypes.hpp"
+//#include "function.hpp"
+//#include "scope.hpp"
+//#include "constant.hpp"
 #include "constant.hpp"
-#include "pointer.hpp"
+//#include "pointer.hpp"
+//#include "modifiers.hpp"
 
 using namespace std;
 
