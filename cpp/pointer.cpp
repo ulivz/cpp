@@ -45,7 +45,7 @@ void my_pointer2() {
     
     cout
     << *b << "\t"            // 257
-    << *c << "\t\n" << endl; // 1
+    << *c << "\t\n" << endl; // Why?
 }
 
 

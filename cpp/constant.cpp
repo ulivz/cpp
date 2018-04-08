@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <string>
 #include "constant.hpp"
 
 using namespace std;
@@ -53,8 +54,9 @@ using namespace std;
 ////////////////////////////////////////////
 // String Constant
 
-
-
+#define LENGTH 10
+#define WIDTH 5
+#define NEWLINE '\n'
 
 void my_constant() {
     int my_int1     = 1994;
@@ -63,6 +65,11 @@ void my_constant() {
     float my_float1 = 3.14159;
     bool my_bool1   = true;
     bool my_bool2   = false;
+    string my_str   = "hello, world";
+    
+    const int MY_LENGTH = 10;
+    const int MY_WIDTH  = 5;
+    const char MY_NEW_LINE = '\n';
     
     cout
     << my_int1   << '\t'
@@ -71,6 +78,12 @@ void my_constant() {
     << my_float1 << '\t'
     << my_bool1  << '\t' // will log 1, why?
     << my_bool2  << '\t' // will log 0, why?
+    << my_str    << '\t'
+    
+    << LENGTH * WIDTH << '\t'
+    << NEWLINE
+    << MY_LENGTH * MY_WIDTH << '\t'
+    << MY_NEW_LINE
     
     << endl;
 }

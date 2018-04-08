@@ -43,11 +43,11 @@ int main(int argc, const char * argv[]) {
 //    my_scope_4();
     
 //     5. Constants
-//    my_constant();
+    my_constant();
     
     // 6. Pointer
 //    my_pointer1();
-    my_pointer2();
+//    my_pointer2();
     
     return 0;
 }
