@@ -63,21 +63,20 @@ void my_constant() {
     const int MY_WIDTH = 5;
     const char MY_NEW_LINE = '\n';
 
-    cout
-            << my_int1 << '\t'
-            << my_int2 << '\t'
-            << my_int3 << '\t'
-            << my_float1 << '\t'
-            << my_bool1 << '\t' // will log 1, why?
-            << my_bool2 << '\t' // will log 0, why?
-            << my_str << '\t'
+    cout << my_int1 << '\t'
+         << my_int2 << '\t'
+         << my_int3 << '\t'
+         << my_float1 << '\t'
+         << my_bool1 << '\t' // will log 1, why?
+         << my_bool2 << '\t' // will log 0, why?
+         << my_str << '\t'
 
-            << LENGTH * WIDTH << '\t'
-            << NEWLINE
-            << MY_LENGTH * MY_WIDTH << '\t'
-            << MY_NEW_LINE
+         << LENGTH * WIDTH << '\t'
+         << NEWLINE
+         << MY_LENGTH * MY_WIDTH << '\t'
+         << MY_NEW_LINE
 
-            << endl;
+         << endl;
 }
 
 

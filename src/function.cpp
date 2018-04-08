@@ -1,11 +1,3 @@
-//
-//  function.cpp
-//  helloworld
-//
-//  Created by ULVIZ on 4/6/18.
-//  Copyright © 2018 ULVIZ. All rights reserved.
-//
-
 #include "../include/function.hpp"
 
 char* hello_world() {

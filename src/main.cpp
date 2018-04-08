@@ -1,15 +1,5 @@
-//
-//  main.cpp
-//  cpp
-//
-//  Created by ULIVZ on 4/6/18.
-//  Copyright © 2018 ULIVZ. All rights reserved.
-//
 
-// Xcode shortcut
-// Command + option + [: move current line up
-// Command + option + ]: move current line down
-// Command + R         : Run APP
+
 
 #include <iostream>
 

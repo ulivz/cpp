@@ -6,7 +6,6 @@
 - CMake
 - GNU Make
 
-
 ## 语法
 
 - <<运算符
@@ -18,3 +17,11 @@
 
 - [onlinegdb](https://www.onlinegdb.com/)
 
+
+## 小技巧
+
+- Xcode 的快捷键
+
+	Command + option + [: move current line up
+	Command + option + ]: move current line down
+	Command + R         : Run APP
