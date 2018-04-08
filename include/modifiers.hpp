@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+int my_modifiers();
+
 #endif /* modifiers_hpp */
