@@ -1,11 +1,3 @@
-//
-//  constant.cpp
-//  helloworld
-//
-//  Created by ULIVZ on 4/6/18.
-//  Copyright © 2018 ULIVZ. All rights reserved.
-//
-
 #include <iostream>
 #include <string>
 #include "../include/constant.hpp"
@@ -59,33 +51,33 @@ using namespace std;
 #define NEWLINE '\n'
 
 void my_constant() {
-    int my_int1     = 1994;
-    int my_int2     = 0x12;
-    int my_int3     = 0123;
+    int my_int1 = 1994;
+    int my_int2 = 0x12;
+    int my_int3 = 0123;
     float my_float1 = 3.14159;
-    bool my_bool1   = true;
-    bool my_bool2   = false;
-    string my_str   = "hello, world";
-    
+    bool my_bool1 = true;
+    bool my_bool2 = false;
+    string my_str = "hello, world";
+
     const int MY_LENGTH = 10;
-    const int MY_WIDTH  = 5;
+    const int MY_WIDTH = 5;
     const char MY_NEW_LINE = '\n';
-    
+
     cout
-    << my_int1   << '\t'
-    << my_int2   << '\t'
-    << my_int3   << '\t'
-    << my_float1 << '\t'
-    << my_bool1  << '\t' // will log 1, why?
-    << my_bool2  << '\t' // will log 0, why?
-    << my_str    << '\t'
-    
-    << LENGTH * WIDTH << '\t'
-    << NEWLINE
-    << MY_LENGTH * MY_WIDTH << '\t'
-    << MY_NEW_LINE
-    
-    << endl;
+            << my_int1 << '\t'
+            << my_int2 << '\t'
+            << my_int3 << '\t'
+            << my_float1 << '\t'
+            << my_bool1 << '\t' // will log 1, why?
+            << my_bool2 << '\t' // will log 0, why?
+            << my_str << '\t'
+
+            << LENGTH * WIDTH << '\t'
+            << NEWLINE
+            << MY_LENGTH * MY_WIDTH << '\t'
+            << MY_NEW_LINE
+
+            << endl;
 }
 
 
