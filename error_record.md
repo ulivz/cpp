@@ -4,7 +4,7 @@
 
 重现步骤，使用 Xcode 创建一个 CLI 项目，然后用 Clion打开，CMakelist 如下：
 
-```
+```cmake
 cmake_minimum_required(VERSION 3.10)
 project(my_cpp)
 
@@ -26,6 +26,16 @@ make[3]: *** [my_cpp] Error 1
 make[2]: *** [CMakeFiles/my_cpp.dir/all] Error 2
 make[1]: *** [CMakeFiles/my_cpp.dir/rule] Error 2
 make: *** [my_cpp] Error 2
+```
+
+通过在 stackoverflow 查询，找到这个问题 [How to create a shared library with cmake?](https://stackoverflow.com/questions/17511496/how-to-create-a-shared-library-with-cmake)
+
+可以通过在 `CMakeLists.txt` 中添加下述字段来解决：
+
+```cmake
+file(GLOB SOURCES
+        src/*.hpp
+        src/*.cpp)
 ```
 
 
